@@ -275,7 +275,7 @@ export default function Home() {
 
         <Button88x31
           url="https://notoverkill.com"
-          imgSrc="https://ingo.au/_next/image?url=%2Fbuttons%2Fnotoverkill.gif"
+          imgSrc="https://ingo.au/_next/image?url=%2Fbuttons%2Fnotoverkill.gif&w=256&q=75"
           alt="notoverkill"
         />
 
