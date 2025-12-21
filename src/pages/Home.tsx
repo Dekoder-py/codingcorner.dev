@@ -118,6 +118,10 @@ export default function Home() {
         >
           <h2 className="text-2xl text-macchiato-lavender">The Webrings</h2>
 
+          <div id="pagering">
+            <pagering-link></pagering-link>
+          </div>
+
           <div id="catp webring stuuf" className="flex mt-2">
             <a href="https://ctp-webr.ing/codingcorner/previous">
               <svg
@@ -393,6 +397,7 @@ export default function Home() {
           alt="viewable on any browser"
         />
       </div>
+      <script src="https://pagering.gideon.sh/embed.js" defer></script>
     </div>
   );
 }
