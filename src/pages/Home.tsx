@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, createElement } from "react";
 import Button88x31 from "../components/Button88x31.tsx";
 import { getLastPlayedTrack } from "../LastFM.tsx";
 import CopySnippet from "../components/CopySnippet.tsx";
@@ -118,9 +118,7 @@ export default function Home() {
         >
           <h2 className="text-2xl text-macchiato-lavender">The Webrings</h2>
 
-          <div id="pagering">
-            <pagering-link></pagering-link>
-          </div>
+          <div id="pagering">{createElement("pagering-link")}</div>
 
           <div id="catp webring stuuf" className="flex mt-2">
             <a href="https://ctp-webr.ing/codingcorner/previous">
