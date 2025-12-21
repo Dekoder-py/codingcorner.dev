@@ -397,7 +397,6 @@ export default function Home() {
           alt="viewable on any browser"
         />
       </div>
-      <script src="https://pagering.gideon.sh/embed.js" defer></script>
     </div>
   );
 }
