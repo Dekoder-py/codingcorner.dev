@@ -116,9 +116,7 @@ export default function Home() {
           id="webring"
           className="my-8 items-center text-center flex flex-col"
         >
-          <h2 className="text-2xl text-macchiato-lavender">
-            The Webrings
-          </h2>
+          <h2 className="text-2xl text-macchiato-lavender">The Webrings</h2>
 
           <div id="catp webring stuuf" className="flex mt-2">
             <a href="https://ctp-webr.ing/codingcorner/previous">
@@ -251,9 +249,7 @@ export default function Home() {
         <p id="quote">Click me for fun words ;)</p>
       </section>
 
-      <h2 className="text-2xl text-macchiato-lavender">
-        The 88x31 Grid
-      </h2>
+      <h2 className="text-2xl text-macchiato-lavender">The 88x31 Grid</h2>
       <span>
         Copy my button code to add it to your site: <CopySnippet />
       </span>
@@ -275,6 +271,12 @@ export default function Home() {
           url="https://site.slitrostudio.me"
           imgSrc="https://site.slitrostudio.me/Slitro2.png"
           alt="Slitro Studio"
+        />
+
+        <Button88x31
+          url="https://notoverkill.com"
+          imgSrc="https://ingo.au/_next/image?url=%2Fbuttons%2Fnotoverkill.gif&w=256&q=75"
+          alt="notoverkill"
         />
 
         <Button88x31
@@ -311,6 +313,12 @@ export default function Home() {
           url="https://www.valen.zip"
           imgSrc="https://www.valen.zip/button-bw.gif"
           alt="valen's site's black and white 88x31 button"
+        />
+
+        <Button88x31
+          url="https://www.codingcorner.dev"
+          imgSrc="/buttons/ultrafast.gif"
+          alt="Ultrafast Parrot."
         />
 
         <Button88x31
