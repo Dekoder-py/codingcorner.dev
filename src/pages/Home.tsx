@@ -118,7 +118,7 @@ export default function Home() {
         >
           <h2 className="text-2xl text-macchiato-lavender">The Webrings</h2>
 
-          <div id="pagering">{createElement("pagering-link")}</div>
+          <div id="pagering">{createElement("pagering-link", { theme: "dark" })}</div>
 
           <div id="catp webring stuuf" className="flex mt-2">
             <a href="https://ctp-webr.ing/codingcorner/previous">
